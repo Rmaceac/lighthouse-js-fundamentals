@@ -4,9 +4,10 @@ const stations = [
   ['Moose Mountain Community Centre', 45, 'community centre']
 ];
 
-let goodStations = []
+
 
 function chooseStations(stations) {
+  let goodStations = []
   for (const station of stations) {
     const capacity = station[1];
     const type = station[2];
